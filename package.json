@@ -4,13 +4,17 @@
   "description": "Projeto criado durante a Next Level Week da Rocketseat (01 a 07 de junho de 2020).",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "knex": "knex --knexfile ./knexfile.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "mysql2": "^2.1.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.6",
