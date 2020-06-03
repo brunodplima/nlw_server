@@ -4,7 +4,7 @@
   "description": "Projeto criado durante a Next Level Week da Rocketseat (01 a 07 de junho de 2020).",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts",
+    "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",
     "knex": "knex --knexfile ./knexfile.ts"
   },
   "keywords": [],
